@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribed-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+#sign-up {
+    width: 375px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+} 
+
+li {
+    padding: 0.5rem;
+}
+
+ul li::before {
+    content: url('/assets/images/icon-list.svg');
+    margin-right: 8px;
+}
+
+#sign-up-form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 1.5rem auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.8rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+p, li {
+    font-size: 1.1rem;
+}
+
+p, li, label, input, button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+label {
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+input::placeholder {
+    color: hsl(231, 7%, 60%);
+}
+
+input {
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    color: hsl(234, 29%, 20%);
+    border: 1px solid hsl(231, 7%, 60%);
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+button {
+    font-weight: 700;
+    color: white;
+    padding: 1rem;
+    background-color: hsl(234, 29%, 20%);
+    border-radius: 5px;
+    border-color: hsl(235, 18%, 26%);
+}
+
+button:hover {
+    background: linear-gradient(to right, hsl(340, 100%, 67%), hsl(4, 100%, 67%));
+    border-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+    box-shadow: 0 4px 15px hsl(4, 100%, 67%);
+}
+
+.dark-slate-gray {
+    color: hsl(234, 29%, 20%);
+}
+
+.bold {
+    font-weight: 700;
+}
