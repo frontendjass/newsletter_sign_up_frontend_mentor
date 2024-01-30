@@ -42,7 +42,7 @@ function SignUp() {
                 ) : (
                     <div className="subscribed-wrapper">
                         <div className="success-border">
-                            <img src="/assets/images/icon-success.svg"/>
+                            <img src="/assets/images/icon-success.svg" alt='success'/>
                             <h1>Thanks for subscribing!</h1>
                             <p>A confirmation email has been sent to <span className="dark-slate-gray bold">{email}</span>. 
                             Please open it and click the button inside to confirm your subscription.</p>
